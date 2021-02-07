@@ -14,6 +14,6 @@ public class CubeChangePosition : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime);
-        transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
+        transform.Rotate(10.0f, 0.0f, 0.0f, Space.World);
     }
 }
